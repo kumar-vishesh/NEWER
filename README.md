@@ -20,7 +20,7 @@ Note that all default architectures used for comparison in the paper are availab
 For example to train NEWER on the 1st synthetic datapoint at full resolution run the following:
 
 ````
-python train.py --arch NEWER --data synthetic_data/datapoint0001.npy
+python train.py --arch NEWER --data synthetic_data/datapoint01.npy
 ````
 
 the output from this run will then be save in the ``results/`` directory inside a timestamped subdirectory. There are 3 additional CLI flags you can use:

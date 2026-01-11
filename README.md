@@ -4,13 +4,15 @@ Code for NEWER: Neural Estimation of Wavelet-Embedded Representations
 ## Code setup and install
 
 ### Clone github repo:
-git clone https://github.com/kumar-vishesh/NEWER.git
 
-### Create a conda env and setup with all required packages via the requirements.txt file
+```
+git clone https://github.com/kumar-vishesh/NEWER.git
+```
+### Create a conda env and setup with all required packages via the environment.yml file
 
 ````
-conda create NEWER_env
-conda install requirements.txt
+conda env create -f environment.yml
+conda activate newer_env
 ````
 
 ## Run the code
